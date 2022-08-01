@@ -1,9 +1,12 @@
 # flutter_application_1
 
-# Chapter 2
+# Chapter 3: Rows and Columns
 
-# Container and Text Widgets
-
-1. Container is a like a box which can be customized
-2. Cannot provide both a color and a decoration
-   a. To provide both, use "decoration: BoxDecoration(color: color)".)
+1. Center can have only 1 child
+2. To have multiple child in a row or column using Row and Column
+3. For row:
+   a. MainAxisAlignment = horizontal
+   b. CrossAxisAlignment = Vertical
+4. For column:
+   a. MainAxisAlignment = vertical
+   b. CrossAxisAlignment = horizontal

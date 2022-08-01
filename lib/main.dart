@@ -19,41 +19,31 @@ class HomePage extends StatelessWidget {
         title: const Text('Home Page'),
       ),
       body: Center(
-        child: Container(
-          padding: const EdgeInsets.all(8),
-          width: 100,
-          height: 100,
-          alignment: Alignment.center,
-          decoration: BoxDecoration(
-            color: Colors.red,
-            borderRadius: BorderRadius.circular(10),
-            boxShadow: const [
-              BoxShadow(
-                color: Colors.black,
-                blurRadius: 10,
-                offset: Offset(0, 2),
-              )
-            ],
-            gradient: const LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [
-                Colors.red,
-                Colors.orange,
-                Colors.yellow,
-              ],
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Container(
+              padding: const EdgeInsets.all(8),
+              width: 100,
+              height: 100,
+              alignment: Alignment.center,
+              color: Colors.red,
             ),
-            border: Border.all(
-              color: Colors.grey,
-              width: 1,
+            Container(
+              padding: const EdgeInsets.all(8),
+              width: 100,
+              height: 100,
+              alignment: Alignment.center,
+              color: Colors.yellow,
             ),
-          ),
-          child: const Text('Hello World',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold)),
+            Container(
+              padding: const EdgeInsets.all(8),
+              width: 100,
+              height: 100,
+              alignment: Alignment.center,
+              color: Colors.green,
+            ),
+          ],
         ),
       ),
     );
