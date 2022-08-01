@@ -9,5 +9,4 @@
    a. To provide both, use "decoration: BoxDecoration(color: color)".)
 
 # Demo screen:
-
-![demo screen][[https://res.cloudinary.com/dhamikauser/image/upload/v1659354525/flutter-tut-demo/sim-screen-2_shifsl.png|width=100]]
+<img src="https://res.cloudinary.com/dhamikauser/image/upload/v1659354525/flutter-tut-demo/sim-screen-2_shifsl.png" alt="demo screen" width="200" />
