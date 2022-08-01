@@ -10,4 +10,4 @@
 
 # Demo screen:
 
-![demo screen](https://res.cloudinary.com/dhamikauser/image/upload/v1659354525/flutter-tut-demo/sim-screen-2_shifsl.png|width=100)
+![demo screen][[https://res.cloudinary.com/dhamikauser/image/upload/v1659354525/flutter-tut-demo/sim-screen-2_shifsl.png|width=100]]
