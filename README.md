@@ -16,8 +16,8 @@
 7. **home**: property takes in widget as the object to show on the default route of the app.
 
 ```dart
-class GFGapp extends StatelessWidget {
-  const GFGapp({Key? key}) : super(key: key);
+class App extends StatelessWidget {
+  const App({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class GFGapp extends StatelessWidget {
       supportedLocales: {const Locale('en', ' ')},
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: const Text('GeeksforGeeks')),
+        appBar: AppBar(title: const Text('MyApp')),
       ),
     );
   }
