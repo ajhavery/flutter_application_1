@@ -41,4 +41,4 @@ class GFGapp extends StatelessWidget {
 1. **main() function**: statements written inside main function are executed when the app starts. The return type of main function is ‘void’.
 2. **runApp(Widget widget) function**: It takes a widget and sets it as the root widget of the app and other widgets as the child of it. It gives the constraints to the widget to fit into the screen.
 
-![demo screen](https://github.com/ajhavery/flutter_application_1/blob/dev%23ch1/demo/sim_screen_1.png?raw=true)
+<img src="https://res.cloudinary.com/dhamikauser/image/upload/v1659354525/flutter-tut-demo/sim-screen-1_yrcmxx.png" alt="demo screen" width="200px" />
